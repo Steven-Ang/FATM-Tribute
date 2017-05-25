@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box
+}
+
+/*************************
+       BACKGROUNDS
+*************************/
+
+#beginning {
+  background: url("img/cosmic.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 3em;
+}
+
+#about {
+  background: url("img/about.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  padding: 20px 0 40px 0px;
+  margin: -16px -15px 0 -15px;
+}
+
+.card {
+   background: url("img/bg.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
+hr {
+  background: white; 
+}
+
+#florence {
+  border-radius: 100%;
+}
+
+p {
+  font-size: 1.15em;
+  line-height: 1.4;
+}
+
+h1, 
+h2, 
+h3,
+h4 {
+  font-family: Rosarivo, serif;
+  font-weight: bold;
+}
+
+/*************************
+      MEDIA QUERIES
+*************************/
+
+@media (max-width: 576px) {
+  body {
+   font-size: 16px; 
+  }
+  .title {
+   font-size: 2rem; 
+  }
+}
+
+
+
