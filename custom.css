@@ -6,31 +6,29 @@
        BACKGROUNDS
 *************************/
 
-#beginning,
-#about {
+#beginning {
+  background: url("img/cosmic.jpg") no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
-}
-
-#beginning {
-  background: url("img/cosmic.jpg") no-repeat center center fixed;  
+  background-size: cover;
   padding-top: 3em;
 }
 
 #about {
   background: url("img/about.jpg") no-repeat center center fixed; 
-  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 20px 0 40px 0px;
   margin: -16px -15px 0 -15px;
 }
 
 .card {
-   background: url("img/bg.jpg") fixed; 
+   background: url("img/bg.jpg") no-repeat center center fixed; 
    background-size: cover;
 }
-
 
 hr {
   background: white; 
@@ -48,7 +46,8 @@ p {
 h1, 
 h2, 
 h3,
-h4 {
+h4,
+h5 {
   font-family: Rosarivo, serif;
   font-weight: bold;
 }
