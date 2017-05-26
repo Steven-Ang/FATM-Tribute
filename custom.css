@@ -27,8 +27,8 @@
 }
 
 .card {
-   background: url("img/bg.jpg") no-repeat center center fixed; 
-  background-size: contain;
+   background: url("img/bg.jpg") fixed; 
+   background-size: cover;
 }
 
 
