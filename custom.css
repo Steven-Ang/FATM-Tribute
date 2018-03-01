@@ -2,6 +2,10 @@
   box-sizing: border-box
 }
 
+body, html {
+  height: 100%;
+}
+
 /*************************
        BACKGROUNDS
 *************************/
@@ -12,7 +16,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 3em;
+  padding-top: 1.7rem;
 }
 
 #about {
@@ -25,8 +29,12 @@
   margin: -16px -15px 0 -15px;
 }
 
+#footer {
+  margin-top: 40px;
+}
+
 .card {
-   background: url("img/bg.jpg") no-repeat center center fixed; 
+   background: #24292E;
    background-size: cover;
 }
 
@@ -41,6 +49,11 @@ hr {
 p {
   font-size: 1.15em;
   line-height: 1.4;
+}
+
+.title {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 h1, 
