@@ -11,20 +11,23 @@ body, html {
 *************************/
 
 #beginning {
-  background: url("img/cosmic.jpg") no-repeat center fixed;  
+  background: url("img/cosmic.jpg") no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
+  height: auto;
   padding-top: 1.7rem;
 }
 
 #about {
-  background: url("img/about.jpg") no-repeat center fixed; 
+  background: url("img/about.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: auto;
   padding: 20px 0 40px 0px;
   margin: -16px -15px 0 -15px;
 }
