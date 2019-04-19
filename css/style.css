@@ -1,0 +1,94 @@
+/*************************
+       BACKGROUNDS
+*************************/
+
+* {
+  box-sizing: border-box
+}
+
+body, html {
+  background-color: #000;
+  height: 100%;
+}
+
+/*************************
+       BACKGROUNDS
+*************************/
+
+#beginning {
+  background: url("../img/cosmic.jpg") no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-top: 1.7rem;
+}
+
+#about {
+  background: url("../img/about1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 20px 0 40px 0px;
+  margin-top: -16px;
+}
+
+#footer {
+  margin-top: 40px;
+}
+
+.card {
+   background: #24292E;
+   background-size: cover;
+}
+
+hr {
+  background: white; 
+}
+
+#florence {
+  border-radius: 100%;
+}
+
+p {
+  font-size: 1.15em;
+  line-height: 1.4;
+}
+
+.title {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+h1, 
+h2, 
+h3,
+h4,
+h5 {
+  font-family: Rosarivo, serif;
+  font-weight: bold;
+}
+
+/*************************
+      MEDIA QUERIES
+*************************/
+
+@media (max-width: 576px) {
+  body {
+   font-size: 16px; 
+  }
+  .title {
+   font-size: 2rem; 
+  }
+  #beginning, #about {
+    background-attachment: scroll;
+  }
+}
+
+
+
