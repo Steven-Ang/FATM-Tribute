@@ -13,6 +13,10 @@ html {
   font-family: "Lato", sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 /*************************
        BACKGROUNDS
 *************************/
@@ -20,10 +24,12 @@ html {
 #beginning {
   background: url("../img/cosmic.jpg") no-repeat center center fixed;
   padding-top: 1.7rem;
+  height: 100%;
 }
 
 #about {
   background: url("../img/about.jpg") no-repeat center center fixed;
+  height: auto;
 }
 
 #beginning,
@@ -33,7 +39,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 100%;
 }
 
 #florence {
@@ -41,15 +46,15 @@ html {
   border-radius: 100%;
 }
 
-#footer {
-  margin-top: 5px;
-}
-
 .beginning-text {
   padding: 40px;
 }
 
-.title {
+.about-title {
+  margin-top: 10px;
+}
+
+.btn {
   margin-top: 10px;
 }
 
@@ -80,12 +85,8 @@ p {
     font-size: 16px;
   }
 
-  .title {
-    font-size: 2rem;
-  }
-
-  .beginning-text-artist {
-    display: block;
+  #florence {
+    margin-top: 30px;
   }
 
   #beginning,
@@ -93,4 +94,21 @@ p {
     background-attachment: scroll;
   }
 
+  .title {
+    font-size: 2rem;
+  }
+
+  .beginning-text {
+    padding: 5px;
+  }
+
+  .beginning-text-artist {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  #beginning {
+    height: auto;
+  }
 }
